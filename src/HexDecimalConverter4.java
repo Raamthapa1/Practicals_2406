@@ -5,21 +5,21 @@ public class HexDecimalConverter4 {
     /*This program will convert hexadecimal to base 10 value*/
 
     public static void main(String[] args) {
-        String hex;  // Input from user, hexadecimal .
-        long dec;    // Decimal (base-10) equivalent of hexadecimal number.
-        int i;       // A position in hex, from 0 to hex.length()-1.
+        String hexadecimal;  // Input from user, hexadecimal .
+        long decimal;    // Decimal (base-10) equivalent of hexadecimal number.
+        int i;       // A position in hexadecimal, from 0 to hexadecimal.length()-1.
         System.out.print("Enter a hexadecimal number: ");
-        hex = TextIO.getlnWord();
-        dec = 0;
-        for ( i = 0; i < hex.length(); i++ ) {
-            int digit = hexValue( hex.charAt(i) );
+        hexadecimal = TextIO.getlnWord();
+        decimal = 0;
+        for ( i = 0; i < hexadecimal.length(); i++ ) {
+            int digit = hexValue( hexadecimal.charAt(i) );
             if (digit == -1) {
                 System.out.println("Error:  Input is not a hexadecimal number.");
                 return;  // Ends the main() routine.
             }
-            dec = 16*dec + digit;
+            decimal = 16*decimal + digit;
         }
-        System.out.println("Base-10 value of " + hex +  " is "  + dec);
+        System.out.println("Base-10 value of " + hexadecimal +  " is "  + decimal);
     }  // end main
 
 
