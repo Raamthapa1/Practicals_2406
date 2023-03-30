@@ -13,8 +13,8 @@ public class Divisors3 {
             }
         }
 
-        System.out.println("The integer with the largest number of divisors is " + numWithMaxDiv + ".");
-        System.out.println("It has " + maxDivisors + " divisors.");
+        System.out.println("The integer " +  numWithMaxDiv   + " have the largest number of divisors. ");
+        System.out.println("The number of divisors are " + maxDivisors + ".");
     }
 
     public static int countDivisors(int n) {
