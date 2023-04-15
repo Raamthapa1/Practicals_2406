@@ -1,3 +1,5 @@
+package Prac1;
+
 import textio.TextIO;
 
 public class Greeting {

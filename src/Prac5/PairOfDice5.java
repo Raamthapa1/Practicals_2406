@@ -1,3 +1,5 @@
+package Prac5;
+
 import java.util.Random;
 
 /* An object of class PairOfDice represents a pair of dice,

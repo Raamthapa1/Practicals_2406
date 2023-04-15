@@ -1,3 +1,5 @@
+package Prac1;
+
 public class FirstLastName {
     /* This program takes full name from user separated by space and counts the
     characters in each name and prints the total number of characters in each name.

@@ -1,3 +1,5 @@
+package Prac3;
+
 import java.util.Random;
 
 public class SnakeEyes3 {

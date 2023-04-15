@@ -1,3 +1,5 @@
+import Prac5.PairOfDice5;
+
 public class RollFor2 {
     public static void main(String[] args) {
         /* */

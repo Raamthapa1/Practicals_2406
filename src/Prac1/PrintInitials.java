@@ -1,3 +1,5 @@
+package Prac1;
+
 public class PrintInitials {
     /* This program prints initials in large letters using asterisks.
      */

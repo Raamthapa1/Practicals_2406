@@ -1,3 +1,5 @@
+package Prac5;
+
 public class StatCalc5 {
 
     private int count;   // Number of numbers that have been entered.

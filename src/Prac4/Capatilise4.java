@@ -1,3 +1,5 @@
+package Prac4;
+
 import java.util.Scanner;
 
 public class Capatilise4 {

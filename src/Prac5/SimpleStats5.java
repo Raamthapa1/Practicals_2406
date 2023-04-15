@@ -1,3 +1,5 @@
+package Prac5;
+
 import java.util.Scanner;
 
 public class SimpleStats5 {

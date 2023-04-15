@@ -1,3 +1,5 @@
+package Prac3;
+
 import textio.TextIO;
 
     public class Calculator3 {

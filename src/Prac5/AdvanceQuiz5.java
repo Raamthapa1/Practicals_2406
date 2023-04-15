@@ -1,3 +1,5 @@
+package Prac5;
+
 import textio.TextIO;
 
 /**

@@ -1,3 +1,5 @@
+package Prac3;
+
 public class Divisors3 {
     /* This program finds out number from 1 to 10000 which has max divisors
     * This print out the integer and number of divisors*/

@@ -1,3 +1,5 @@
+package Prac5;
+
 public class AdditionQuestion5 {
 
     private int a, b;  // The numbers in the problem.
