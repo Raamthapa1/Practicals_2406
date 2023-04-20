@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
- * this program will prinbts the sequence of 3n+1 where n is the number entered by the user
+ * This program prints the sequence of 3n+1 where n is the number entered by the user
  */
 public class ThreeN {
 
@@ -22,10 +22,11 @@ public class ThreeN {
 
         BigInteger N;  // starting point n which is specified by the user
 
-        System.out.println("This program will print 3N+1 sequences for positive starting values" +
-                "\nthat you enter.  There is no limit on the number of"
-                + "\ndigits in the numbers that you enter.  " +
-                "\nEntering an empty line will end the program.");
+        System.out.println("""
+                This program will print 3N+1 sequences for positive starting values
+                that you enter.  There is no limit on the number of
+                digits in the numbers that you enter. \s
+                Entering an empty line will end the program.""");
 
 
         while (true) {
@@ -66,7 +67,7 @@ public class ThreeN {
         System.out.println("the sequence starting from  " + N + " is:");
         System.out.println();
 
-        System.out.println(N.toString());   //
+        System.out.println(N);   //
         count = 1;
 
         while ( ! N.equals(ONE) ){
@@ -79,7 +80,7 @@ public class ThreeN {
                 N = N.multiply(THREE);
                 N = N.add(ONE);
             }
-            System.out.println(N.toString());
+            System.out.println(N);
             count++;
         }
 
